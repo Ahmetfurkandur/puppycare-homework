@@ -1,1 +1,125 @@
 @import url('variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*-------------------------------------------------------------- 
+reset css
+--------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+     box-sizing: border-box;
+}
+
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+
+html,
+body {
+     height: 100%;
+}
+
+
+body {
+     line-height: 1.5;
+     -webkit-font-smoothing: antialiased;
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+     display: block;
+     max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+     font: inherit;
+
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     overflow-wrap: break-word;
+}
+
+/*-------------------------------------------------------------- 
+navbar
+--------------------------------------------------------------*/
+
+#navbar {
+     display: flex;
+     justify-content: space-around;
+     height: 3.5rem;
+     padding: 0.625rem;
+     border-bottom: 1px solid var(--navbar-border);
+}
+
+#menu-items>ul {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+}
+
+.menu-item {
+     margin: 0.625rem;
+}
+
+.menu-item>a {
+     color: var(--text-color);
+     text-decoration: none;
+}
+
+.menu-item>a:hover {
+     color: var(--active-menu-item);
+     transition: 0.5s;
+}
+
+
+#search {
+     display: flex;
+}
+
+#searchForm {
+     display: flex;
+}
+
+#searchTxt {
+     border: 1px solid var(--border);
+     border-top-left-radius: 100px;
+     border-bottom-left-radius: 100px;
+     height: 2.188rem;
+     padding: 5px;
+}
+
+#searchBtn {
+     color: var(--button-text-color);
+     font-size: small;
+     height: 2.188rem;
+     padding: 5px;
+     background-color: var(--search-button-color);
+     border: none;
+     border-top-right-radius: 100px;
+     border-bottom-right-radius: 100px;
+}
+
+.dark-mode {
+     color: var(--text-color);
+     margin: 5px;
+}
