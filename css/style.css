@@ -60,20 +60,34 @@ h6 {
 }
 
 /*-------------------------------------------------------------- 
+container
+--------------------------------------------------------------*/
+
+.container {
+     display: flex;
+     justify-content: space-around;
+}
+
+/*-------------------------------------------------------------- 
 navbar
 --------------------------------------------------------------*/
 
 #navbar {
+     background-color: var(--bg-navbar);
      display: flex;
      justify-content: space-around;
      height: 3.5rem;
+     margin-bottom: 20px;
      padding: 0.625rem;
      border-bottom: 1px solid var(--navbar-border);
+     position: sticky;
+     top: 0;
 }
 
 #menu-items>ul {
      display: flex;
      justify-content: space-between;
+     align-items: center;
      list-style: none;
 }
 
@@ -111,6 +125,7 @@ navbar
 #searchBtn {
      color: var(--button-text-color);
      font-size: small;
+     width: 3rem;
      height: 2.188rem;
      padding: 5px;
      background-color: var(--search-button-color);
@@ -122,4 +137,62 @@ navbar
 .dark-mode {
      color: var(--text-color);
      margin: 5px;
+}
+
+/*-------------------------------------------------------------- 
+summary
+--------------------------------------------------------------*/
+
+#summarySection {
+     display: flex;
+     justify-content: space-around;
+}
+
+#summary {
+     width: 35%;
+}
+
+#table {
+     display: grid;
+     grid-template-columns: 300px 300px;
+}
+
+
+.header-image {
+     height: 400px;
+     width: 400px;
+     border-radius: 10px;
+     margin: 0.625rem;
+     float: right;
+}
+
+.summary-card {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 9.375rem;
+     width: 290px;
+     margin: 0.625rem 0.625rem 0.625rem 0;
+     padding: 0.625rem;
+     border-radius: 10px;
+     color: var(--summary-text-color);
+}
+
+
+
+.happy-clients {
+     background-color: var(--bg-happy-clients);
+}
+
+.professionals {
+     background-color: var(--bg-professionals);
+}
+
+.adopted-pets {
+     background-color: var(--bg-adopted-pets);
+}
+
+.awards {
+     background-color: var(--bg-awards);
 }

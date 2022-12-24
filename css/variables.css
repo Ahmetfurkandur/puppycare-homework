@@ -1,8 +1,14 @@
 :root {
-     --navbar-border: #f4f4f4;
-     --border: #b9b9b9;
+     --navbar-border: #cfcfcf;
+     --bg-navbar: #fff;
+     --border: #e1e1e1;
      --text-color: #000;
      --active-menu-item: #FF0000;
      --search-button-color: #F44848;
      --button-text-color: #fff;
+     --bg-happy-clients: #6168FF;
+     --bg-professionals: #0ABF54;
+     --bg-adopted-pets: #FF4F80;
+     --bg-awards: #FF9934;
+     --summary-text-color: #fff;
 }
