@@ -1,6 +1,7 @@
 :root {
      --navbar-border: #cfcfcf;
      --bg-navbar: #fff;
+     --bg-card: #fff;
      --border: #e1e1e1;
      --text-color: #000;
      --active-menu-item: #FF0000;
@@ -11,4 +12,5 @@
      --bg-adopted-pets: #FF4F80;
      --bg-awards: #FF9934;
      --summary-text-color: #fff;
+     --bg-blogs-color: #f4f4f4;
 }
